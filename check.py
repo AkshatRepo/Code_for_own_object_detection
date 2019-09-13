@@ -80,7 +80,7 @@ def dothis():
                 firebase_god.value = goodday
                 firebase_bourn.value,firebase_nice.value = bournvita , nicetime
                 firebase_gat.value = gatorade
-                cv2.imshow('TensorFlow MobileNet-SSD', img)
+                cv2.imshow('TensorFlow faster_rcnn', img)
                 if cv2.waitKey(25) & 0xFF == ord('q'):
                     cap.release()
                     cv2.destroyAllWindows()
